@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #242629;
+  color: #ffffff;
+}
+
+button {
+  margin: 10px;
+}
+
+.light button {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+.dark button {
+    background-color: #85d1b0;
+    color: #242629;
+}
+
